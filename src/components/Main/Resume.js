@@ -1,11 +1,11 @@
 import React from 'react';
 
-function resume(props) {
+function Resume(props) {
     return (
         <div>
-            
+            <p>Resume</p>
         </div>
     );
 }
 
-export default resume;
+export default Resume;

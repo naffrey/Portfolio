@@ -1,0 +1,28 @@
+h1 {
+    font-family: monospace, monospace;
+    position: relative;
+    width: max-content;
+}
+
+h1::before,
+h1::after {
+    content:'';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+
+}
+
+h1::before {
+    background-color: white;
+    animation: typewriter 3s steps(35) forwards;
+    border: black 2px solid;
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}

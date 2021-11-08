@@ -1,11 +1,12 @@
 import React from 'react';
 
-function projects(props) {
+function Projects(props) {
     return (
         <div>
+            <p>projects</p>
             
         </div>
     );
 }
 
-export default projects;
+export default Projects;

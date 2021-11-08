@@ -1,11 +1,13 @@
 import React from 'react';
 
-function home(props) {
+function header(props) {
     return (
         <div>
+
+
             
         </div>
     );
 }
 
-export default home;
+export default header;
