@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeStyles from './HomeStyles.css'
+import MainStyles from './MainStyles.css'
 
 function Home(props) {
     return (
