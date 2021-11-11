@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Home from './components/Main/Home';
-import About from './components/Main/About';
-import Projects from './components/Main/Projects';
-import Resume from './components/Main/Resume';
+import Home from './components/main/home';
+import About from './components/main/about';
+import Projects from './components/main/projects';
+import Resume from './components/main/resume';
 
 
 function App() {
